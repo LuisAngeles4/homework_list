@@ -1,0 +1,35 @@
+.add-task {
+  border-top: 1px solid #dadada;
+
+  input {
+    border: 0 !important;
+    width: 100%;
+    height: 60px;
+    padding: 20px 50px;
+    font-size: 22px;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  button {
+    display: flex;
+    position: relative;
+    top: 0;
+    background-color: transparent;
+    border: 0;
+    height: 100%;
+    &:hover,
+    &:active,
+    &:focus {
+      background-color: transparent !important;
+      box-shadow: none !important;
+    }
+
+    svg {
+      fill: #bdbdbd;
+      width: 20px;
+    }
+  }
+}

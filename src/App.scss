@@ -1,0 +1,72 @@
+.app {
+  padding: 0px !important;
+
+  .tittle {
+    height: 100px;
+    background-color: #3138ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    h1 {
+      color: #fff;
+    }
+  }
+
+  .todo {
+    margin: 60px 0 0 0;
+  }
+  .todo__title {
+    background-color: #fff;
+    height: 90px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #dadada;
+
+    h2 {
+      color: #008dd0;
+      letter-spacing: 10px;
+    }
+  }
+
+  .todo__list {
+    padding: 0;
+    border-left: 1px solid #dadada;
+    border-right: 1px solid #dadada;
+    background-color: #fff;
+    max-height: calc(100vh - 400px);
+    overflow: scroll;
+
+    .loading {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      padding: 20px 0;
+
+      span {
+        padding-top: 20px;
+      }
+    }
+
+    h3 {
+      text-align: center;
+      padding: 20px 0;
+    }
+  }
+
+  .todo__input {
+    padding: 0;
+    border-left: 1px solid #dadada;
+    border-right: 1px solid #dadada;
+    border-bottom: 1px solid #dadada;
+    background-color: #fff;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    overflow: hidden;
+  }
+}
